@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameOverWindow</class>
+ <widget class="QDialog" name="GameOverWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1109</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="quit_game_button">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>460</y>
+     <width>251</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;Arial&quot;;
+background-color: rgb(189, 189, 189);</string>
+   </property>
+   <property name="text">
+    <string>Quit Game</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="index_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>1091</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;Arial&quot;;
+font-weight: bold;
+qproperty-alignment: AlignCenter;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 1 Wins!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="index_label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>1091</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;Arial&quot;;
+font-weight: bold;
+qproperty-alignment: AlignCenter;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
